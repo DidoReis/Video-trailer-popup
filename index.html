@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Trailer Popup</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <img
+        src="assets/img/o-senhor-dos-aneis-a-sociedade-do-anel.jpg"
+        alt="movie image"
+      />
+      <h1>The Lord of the Rings: The Fellowship of the Ring</h1>
+      <p>
+        Sauron, the Dark Lord, has awakened and threatens to conquer
+        Middle-earth. To stop this ancient evil once and for all, Frodo Baggins
+        must destroy the One Ring in the fires of Mount Doom. Men, Hobbits, a
+        wizard, an Elf, and a Dwarf form a fellowship to help him on his quest.
+      </p>
+      <button class="btn">Watch now</button>
+    </div>
+    <div class="trailer-container active">
+      <video
+        src="assets/video/O Senhor dos Anéis  A sociedade do Anel 2001 - Trailer (Legendado).mp4"
+        controls="true"
+      ></video>
+      <i class="fas fa-times fa-2x close-icon"></i>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
